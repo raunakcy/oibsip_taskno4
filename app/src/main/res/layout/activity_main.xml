@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="24dp"
+    android:background="#070707"
+    >
+
+
+    <TextView
+        android:id="@+id/txtTotalQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Total Questions"
+        android:textAlignment="center"
+        android:textColor="#F4EEEE"
+        android:textFontWeight="1"
+        android:textSize="32sp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What are the Question?"
+        android:layout_above="@id/llChoice"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:id="@+id/txtQuestion"
+        android:textColor="#F8F0F0"
+        android:layout_centerHorizontal="true"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/llChoice"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ans A"
+            android:layout_margin="11dp"
+            android:id="@+id/btnA"
+            android:background="@drawable/custom_buttom"
+
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ans B"
+            android:layout_margin="11dp"
+            android:id="@+id/btnB"
+            android:background="@drawable/custom_buttom"
+
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ans C"
+            android:layout_margin="11dp"
+            android:id="@+id/btnC"
+            android:background="@drawable/custom_buttom"
+
+
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ans D"
+            android:backgroundTint="#12110F"
+            android:layout_margin="11dp"
+            android:padding="8dp"
+            android:id="@+id/btnD"
+            android:background="@drawable/custom_buttom"
+
+
+            ></Button>
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llChoice"
+        android:text="Submit"
+        android:background="@drawable/but"
+        android:textColor="#FAF4F4"
+        android:layout_margin="32dp"
+        android:layout_marginTop="40dp"
+        android:padding="5dp"
+        android:id="@+id/btnSave"
+        />
+
+
+
+
+
+</RelativeLayout>
