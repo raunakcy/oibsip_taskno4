@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">oibsip_taskno.4</string>
+    <string name="quiz">Quiz Application</string>
+
+
+    <string name="Ques">Total Questions</string>
+    <string name="What">"What are the Question?"</string>
+    <string name="A">Ans A</string>
+    <string name="B">Ans B</string>
+    <string name="C">Ans C</string>
+    <string name="D">Ans D</string>
+    <string name="submit">Submit</string>
+
+
+
+
 </resources>

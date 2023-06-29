@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="Total Questions"
+        android:text="@string/Ques"
         android:textAlignment="center"
         android:textColor="#F4EEEE"
         android:textFontWeight="1"
@@ -25,7 +25,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="What are the Question?"
+        android:text="@string/What"
         android:layout_above="@id/llChoice"
         android:textAlignment="center"
         android:textSize="24sp"
@@ -44,35 +44,38 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ans A"
+            android:text="@string/A"
             android:layout_margin="11dp"
             android:id="@+id/btnA"
             android:background="@drawable/custom_buttom"
 
-            ></Button>
+            />
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ans B"
+            android:text="@string/B"
             android:layout_margin="11dp"
             android:id="@+id/btnB"
             android:background="@drawable/custom_buttom"
 
-            ></Button>
+            />
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ans C"
+            android:text="@string/C"
             android:layout_margin="11dp"
             android:id="@+id/btnC"
             android:background="@drawable/custom_buttom"
 
 
-            ></Button>
+            />
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ans D"
+            android:text="@string/A"
             android:backgroundTint="#12110F"
             android:layout_margin="11dp"
             android:padding="8dp"
@@ -80,7 +83,7 @@
             android:background="@drawable/custom_buttom"
 
 
-            ></Button>
+            />
 
 
     </LinearLayout>
@@ -88,7 +91,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/llChoice"
-        android:text="Submit"
+        android:text="@string/submit"
         android:background="@drawable/but"
         android:textColor="#FAF4F4"
         android:layout_margin="32dp"

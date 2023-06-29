@@ -8,18 +8,19 @@
     android:background="#0E100E"
     android:gravity="center"
     android:orientation="vertical">
+
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/baseline_quiz_24"></ImageView>
+        android:src="@drawable/baseline_quiz_24" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Quiz Application"
+        android:text="@string/quiz"
         android:textColor="@color/white"
         android:textSize="32sp"
-        android:layout_marginTop="40dp"></TextView>
+        android:layout_marginTop="40dp" />
 
 
 
